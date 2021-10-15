@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Hookk from './Components/hookk';
+//import Hookcounter2 from './Components/hookcounter2';
+//import Hookcounter from './Components/hookcounter';
+//import Classcounter from './Components/classcounter';
+//import Mount from './Components/task1'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Classcounter /> */}
+      {/* <Hookcounter /> */}
+      {/* <Hookcounter2 /> */}
+      {/* <Mount /> */}
+      <Hookk />
+      
     </div>
   );
 }
