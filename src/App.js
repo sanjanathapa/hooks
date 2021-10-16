@@ -1,5 +1,6 @@
 import './App.css';
-// import Hookk from './Components/hookk';
+import Effecthook from './Components/Effecthook';
+//import Hookk from './Components/hookk';
 //import Hookcounter2 from './Components/hookcounter2';
 //import Hookcounter from './Components/hookcounter';
 //import Classcounter from './Components/classcounter';
@@ -15,6 +16,8 @@ function App() {
       {/* <Mount /> */}
       {/* <Hookk /> */}
       <Controlled />
+      <Effecthook />
+      
     </div>
   );
 }
